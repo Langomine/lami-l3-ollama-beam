@@ -1,0 +1,5 @@
+services:
+  ollama-test:
+    build: .
+    ports:
+      - "11434:11434"
